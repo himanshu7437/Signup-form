@@ -8,13 +8,13 @@
 </head>
 <body>
     <header></header>
-    <main class="mainContainer">
+    <main class="Container">
         <h1 class="heading">Signup</h1>
-        <form action="" method="post" class="signupForm">
+        <form onsubmit="formSubmitHandler(event)" class="signupForm">
             <input type="text" class="inputField" placeholder="Full Name" required="">
             <input type="email" class="inputField" placeholder="Email" required="">
             <input type="Password" class="inputField" placeholder="Password" required="">
-            <input type="text" class="inputField" placeholder="Confirm Password" required="">
+            <input type="Password" class="inputField" placeholder="Confirm Password" required="">
             <input type="date" class="inputField" placeholder="MM/DD/YYYY" required="">
             <div class="radioContainer">
                 <input type="radio" name="work" id="Student" value="Student" required="">
@@ -30,5 +30,6 @@
         </form>
     </main>
     <footer></footer>
+    <script src="script.js"></script>
 </body>
 </html>
